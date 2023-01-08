@@ -177,13 +177,18 @@
   @media (max-width: 576px) {
     .hero{
       width: 100%;
+      justify-content: center; 
+      margin-left: 0rem; 
+      height: auto;
+      display: flex;
+      flex-flow: row;
     }
     
     .img-tienda{
       width: 400px;
       height: 263px;
       top: 110px;
-      left: 5px;
+      left: 1px;
       justify-content: center;
     }
     
