@@ -176,14 +176,13 @@
   
   @media (max-width: 576px) {
     .hero{
-      width: 100%;
-      display: grid;
-      height: 100%;
+      width: auto;
+      display: flex;
+      height: auto;
       flex-direction: column;
       align-items: center;
       justify-items: center;
       padding: 0px;
-      left: 0px;
     }
     
     .img{
@@ -197,6 +196,8 @@
       width: 400px;
       height: 263px;
       top: 110px;
+      left: 5rem;
+      display: grid;
 }
     
     .title-front-page{
