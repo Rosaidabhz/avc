@@ -177,24 +177,30 @@
   @media (max-width: 576px) {
     .hero{
       width: 100%;
-      justify-content: center; 
-      margin-left: 0rem; 
-      height: auto;
-      display: flex;
-      flex-flow: row;
+      display: grid;
+      height: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-items: center;
+      padding: 0px;
+      left: 0px;
     }
     
+    .img{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
     .img-tienda{
       width: 400px;
       height: 263px;
       top: 110px;
-      left: 1px;
-      justify-content: center;
-    }
+}
     
     .title-front-page{
       margin-top: 18rem;
-      margin-left: 29rem;
       font-family: 'Poppins';
       font-style: normal;
       font-weight: 600;
@@ -204,10 +210,14 @@
       text-transform: capitalize;
       font-feature-settings: 'pcap' on, 'kern' off;
       color: #104481;
+      text-align: center;
+      left: 0px;
+      display: flex;
+      position: absolute;
       }
       
   .text1{
-  margin-left: 27rem;
+    display: flex;
   margin-top: 23rem;
   position: absolute;
   gap: 2rem;
@@ -221,23 +231,23 @@
   letter-spacing: 0.41em;
   text-transform: capitalize;
   color: #5A2100;
-  
+  left: 0px;
+
   }
   
   .line{
     width: 347.99px;
     height: 0px;
     border: 1px solid #0a1b3a;
-  margin-left: 26rem;
+    left: 0px;
   margin-top: 25rem;
   }
   .text2{
     position: absolute;
     width: 359px;
     height: 95px;
-    margin-left: 26rem;
     margin-top: 27rem;
-    
+    display: flex;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -245,7 +255,8 @@
     line-height: 30px;
     text-align: center;
     text-transform: lowercase;
-    
+    left: 0px;
+
   }
   .botonn{
     position: absolute;
@@ -270,12 +281,15 @@
   
   }
   .icons-2{
-    width: 390px;
-    height: 85px;
+    max-width: 100%;
+    height: auto;
     left: 0px;
-    top: 765px;
+    bottom: 0px;
     display: flex;
     justify-content: center;
+    justify-items: center;
+    text-align: center;
+
     
   }
   
@@ -323,10 +337,8 @@
     }
   
     .networks{
-      position: absolute;
-      width: 378px;
-      height: 18px;
-      left: 10px;
+      display: flex;      
+       height: 18px;
       font-family: 'Poppins';
       font-style: normal;
       font-weight: 400;
@@ -334,7 +346,7 @@
       line-height: 30px;
       letter-spacing: -0.03em;
       text-transform: uppercase;
-      
+      text-align: center;
       color: #5A2100;
       }
     }
