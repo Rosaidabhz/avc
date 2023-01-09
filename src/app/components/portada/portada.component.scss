@@ -196,7 +196,6 @@ background: #8BD5FF;
   }
   .front-page{
     display: block;
-    position: absolute;
     justify-content: center;
     justify-items: center;
     text-align: center;
@@ -310,7 +309,7 @@ height: 50px;
 }
 .icons-2{
   width: 100%;
-  position:fixed;
+  position:absolute;
   height: 80px;
   bottom: 0px;
   background: #f8f8f8;
