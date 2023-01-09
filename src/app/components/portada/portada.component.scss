@@ -108,12 +108,13 @@ color: #5A2100;
   }
   
   .icons-2{
-    width: 390px;
-    height: 85px;
-    left: 0px;
-    bottom: 0;
-    display: flex;
+    position: absolute;
+    width:  684px;
+    height: 111px;
+    bottom: 0%;
+    background: #f8f8f8;
     justify-content: center;
+    
     
     }
 
@@ -381,6 +382,7 @@ height: 50px;
         padding: 0rem;
         border: 0px;
         position: 0;
+        left: 0;
 
   
    }
@@ -388,8 +390,7 @@ height: 50px;
     .img-tienda{
       width: 390px;
       height: 500px;      
-      left: 2.3rem;
-      transform: translateX(-1rem);
+      left: 1.2rem;
     }
     
     .front-page{
