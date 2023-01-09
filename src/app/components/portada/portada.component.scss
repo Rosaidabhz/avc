@@ -190,7 +190,9 @@ background: #8BD5FF;
     height: 263px;
     top: 110px;
     justify-content: center;
-    left: 100px;
+    position: absolute;
+    margin-left: 0%;
+    left: 20px;
 
   }
   
@@ -275,8 +277,8 @@ height: 50px;
   width: 100%;
   height: 85px;
   left: 0px;
+  margin-top: 1rem;
   bottom: 0px;
-  top:750px;
   display: flex;
   justify-content: center;
   text-align: center;
