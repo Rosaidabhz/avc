@@ -297,4 +297,14 @@ a{
 
     }
   }
+
+  @media (max-width: 390px) {
+    .add_shopping_cart {
+      position: absolute;
+      display: flex;
+      top: 5px;
+      right: 0px;
+      margin-right: 5px;
+
+    }}
   /*End Home Page Responsive*/
