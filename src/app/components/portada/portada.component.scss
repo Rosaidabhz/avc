@@ -190,8 +190,8 @@ background: #8BD5FF;
     height: 263px;
     top: 110px;
     justify-content: center;
-    left: auto;
-    right: 70px;
+    left: 100px;
+
   }
   
   .title-front-page{
@@ -295,8 +295,8 @@ height: 50px;
   text-transform: uppercase;
   text-align: center;
   color: #5A2100;
-  left: 15%;
-  right: 25%;
+  justify-content: center;
+  display: flex;
   }
   .list-picture{
     flex-direction: row;
