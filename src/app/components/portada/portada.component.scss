@@ -183,16 +183,24 @@ background: #8BD5FF;
     justify-items: center;
     text-align: center;
     flex-direction: column;
+    
   }
-  
+  .img{
+    justify-content: center;
+    position: absolute;
+    display: block; 
+    margin: auto;
+    top: 110px;
+
+  }
   .img-tienda{
     width: 390px;
     height: 263px;
-    top: 110px;
     justify-content: center;
     position: absolute;
-    margin-left: 0%;
-    left: 20px;
+    display: block; 
+    margin: auto;
+    text-align: center;
 
   }
   
@@ -261,6 +269,7 @@ margin-top: 30rem;
   border-radius: 38px;
 margin-left: 32.5rem;
 margin-top: 40rem;
+margin-bottom: 1rem;
 }
 
 .boton{
@@ -275,9 +284,9 @@ height: 50px;
   width: 100%;
   height: 85px;
   left: 0px;
-  top: 46rem;
   justify-content: center;
   text-align: center;
+  bottom: 0px;
 
 }
 .networks{
