@@ -192,6 +192,7 @@ background: #8BD5FF;
     justify-items: center;
     text-align: center;
     margin: auto;
+
   }
   .front-page{
     display: block;
@@ -204,6 +205,8 @@ background: #8BD5FF;
     max-width: 100%;
     max-height: 300px;
     gap: 1rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
     }
   .img-tienda{
     width: 390px;
@@ -247,7 +250,7 @@ flex-direction: row;
 }
 
 .line{
-  width: 310px;
+  width: 411px;
   height: 0px;
   border: 1px solid #0a1b3a;
   top: 30rem;
@@ -289,13 +292,15 @@ height: 29.96px;
   border: #142630;
   border-radius: 38px;
 margin-top: 6rem;
-margin-bottom: 1rem;
-margin-left: 38%; 
+margin-left: 50%;
+transform: translateX(-50%);
+
 }
 
 .boton{
   font-size: 10px;
   margin-top: 20px;
+  margin-bottom: 1rem;
 }
 .cart{
   width: 50px;
@@ -307,7 +312,7 @@ height: 50px;
   left: 0px;
   justify-content: center;
   text-align: center;
-  bottom: 0px;
+  padding-bottom: 0px;
   position: absolute;
 
 }
