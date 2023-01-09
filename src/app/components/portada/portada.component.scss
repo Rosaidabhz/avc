@@ -176,43 +176,48 @@ background: #8BD5FF;
 
 @media (max-width: 575px) {
   .hero{
-    max-width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    text-align: center;
-    flex-direction: column;
+    max-width: 100%;   
     margin: 0%;
-    display: flex;
-  }
-  .img{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    text-align: center;
-    margin: 0px;
-
-  }
-  .front-page{
-    max-width: 100%;
+    height: 0px;
     display: flex;
     justify-content: center;
     justify-items: center;
     text-align: center;
     flex-direction: column;
-    margin: auto;
+    align-content:center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+ 
+  .front-page{
+    align-content:center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    flex-direction: column;
     max-width: 100%;
-    max-height: 300px;
+    max-height: 100%;
     gap: 1rem;
-    top: 40rem;
     margin-left: 50%;
     transform: translateX(-50%);
+    display: flex;
+    top: 38rem;
     }
+    .img{
+      display: flex;
+      position: relative;
+      justify-content: center;
+      justify-items: center;
+      text-align: center;
+      margin: 0px;
+      align-content:center;
+      width: 100%;
+      height: 100%;
+    }
+
   .img-tienda{
     width: 387px;
     height: 400px;
-    margin-top: 110px;
     left: 10%;
     margin-right: 15%;
     position: absolute;
@@ -224,16 +229,13 @@ background: #8BD5FF;
     }
     
 .text1{
-margin-top: 10rem;
 gap: 2rem;
-line-height: 155.7%;
-width: 348px;
-height: 29.96px;
 text-align: center;
 top: 23rem;
-margin: auto;
+margin: 0;
 max-width: 100%;
 flex-direction: row;
+justify-content: center;
 
 }
 
@@ -246,24 +248,18 @@ flex-direction: row;
 }
 .text-2{
   text-align: center;
-top: 30rem;
-margin: auto;
-max-width: 100%;
-flex-direction: row;
-width: 348px;
-height: 29.96px;
+  margin: 0;
+  max-width: 100%;
+  flex-direction: row;
+  justify-content: center;
+
 }
 .text2{
   position: absolute;
-  width: 359px;
-  height: 95px;
-  margin-left: 26rem;
-  margin-top: 32rem;
-  margin: auto;
+  margin: 0;
   max-width: 100%;
   text-align: center;
   justify-content: center;
-
   
 }
 .botonn{
@@ -273,13 +269,14 @@ height: 29.96px;
 margin-top: 6rem;
 margin-left: 50%;
 transform: translateX(-50%);
+  margin-bottom: 1rem;
+  display: flex;
 
 }
 
 .boton{
   font-size: 10px;
   margin-top: 20px;
-  margin-bottom: 1rem;
 }
 .cart{
   width: 50px;
@@ -287,26 +284,27 @@ height: 50px;
 }
 .icons-2{
   width: 100%;
-  height: 90px;
   bottom: 0px;
-  top: 60rem;
   display: flex;
+  margin: 0%;
+  position: absolute;
   justify-content: center;
-  margin: 0px;
 }
 
 .networks{
   position: absolute;
   width: 100%;
-  height: 18px;
   justify-content: center;
   display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 0;
   }
   .list-picture{
     flex-direction: row;
     display: flex;
     justify-content: center;
-    margin-top: 28px;
+    margin-top: 70px;
   }
   .picture1{
   width: 50px;
