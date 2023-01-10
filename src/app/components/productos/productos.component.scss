@@ -91,6 +91,11 @@ margin-top: 1rem;
     justify-content: center;
     font-style: normal;
 }
+
+.material-icons:hover {
+    background-color: #5e7288; /* Green */
+    color: white;
+  }
     
 .add_shopping_cart{
 display: flex;

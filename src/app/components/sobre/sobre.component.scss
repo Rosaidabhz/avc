@@ -157,6 +157,8 @@
     font-size: 15px;
     margin-top: 34px;
     justify-content:center;
+    text-decoration:none;
+
 }
 
 .tarjetas--start {
@@ -176,6 +178,11 @@
     border: 1px solid #003a0f;
     border-radius: 8px;
     color: #072900;
+}
+
+.tarjetas__boton--mega:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
 }
 
 

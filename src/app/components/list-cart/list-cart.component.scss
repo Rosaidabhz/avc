@@ -60,18 +60,27 @@ margin-left: 10px;
   }
   .delete{
     flex-direction: row;
-    display: flex;
-    width: 100px;
-    height: 30px;
-    background: hwb(0 3% 55%);
-    border: hwb(0 3% 55%);
-    border-radius: 38px;
-    justify-content: center;
-    justify-items:center;
     margin-top: 10px;
-    cursor: pointer;
-
   }
+
+.boton-delete{
+  background: hwb(0 3% 55%);
+  border: hwb(0 3% 55%);
+  width: 100px;
+  height: 30px;
+  border-radius: 38px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-items:center;
+  cursor: pointer;
+
+}
+.boton-delete:hover {
+  background-color: #2b110c; /* Green */
+  color: white;
+}
+
   .precio-total{
     font-size: 25px;
     font-weight: 400;
@@ -96,6 +105,11 @@ margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 1rem;
     cursor: pointer;
+  }
+
+  .boton-wsp:hover {
+    background-color: #0c2b13; /* Green */
+    color: white;
   }
       
   .text-wsp{
