@@ -141,10 +141,9 @@
 .tarjetas__texto {
     line-height: 25px;
     font-family: 'Poppins';
-    font-size: 15px;
+    font-size: 16px;
     text-align:center;
-
-
+    color: #000;
 }
 .tarjetas__boton {
     font-size: 1.2rem;
@@ -155,6 +154,7 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     display: flex;
+    font-size: 15px;
     margin-top: 34px;
     justify-content:center;
 }
@@ -175,7 +175,7 @@
 .tarjetas__boton--mega {
     border: 1px solid #003a0f;
     border-radius: 8px;
-    color: #000000;
+    color: #072900;
 }
 
 
