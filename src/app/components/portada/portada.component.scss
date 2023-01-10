@@ -14,9 +14,6 @@
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
-img{
-  margin: 0px;
-}
 .img-tienda{
   position: absolute;
   width: 50%;
@@ -114,7 +111,6 @@ color: #5A2100;
     bottom: 0%;
     background: #f8f8f8;
     justify-content: center;
-    
     
     }
 
@@ -224,8 +220,9 @@ background: #8BD5FF;
     margin: 0px;
     align-content:center;
     width: 100%;
-    height: 500px;
-    margin-bottom: 1rem;
+    height: 400px;
+    margin-bottom: 0rem;
+    margin-top: 0%;
     padding: 0rem;
     border: 0px;
     position: relative;
@@ -233,7 +230,8 @@ background: #8BD5FF;
     }
   .title-front-page{
     text-align: center;
- font-size: 20px;    
+ font-size: 20px;   
+ margin-top: 0%; 
 }
     
 .text1{
@@ -241,7 +239,8 @@ text-align: center;
 margin: 0;
 justify-content: center;
 gap: 2;
-margin-top: 1rem;
+margin-top: 0%; 
+
 }
 
 .line{
@@ -293,7 +292,6 @@ height: 50px;
   display: flex;
   position: relative;
   justify-content: center;
-  margin-top: 2rem;
   margin-left: 0px;
 }
 
@@ -350,8 +348,43 @@ height: 50px;
   
   }
     @media (max-width: 414px) {
-
-      .img{
+      .hero{
+        background-color: white;
+        background-repeat: no-repeat;
+        justify-content: center;
+        padding: 0rem;
+        display: grid;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+      }
+     
+        .img{
+          display: flex;
+          justify-content: center;
+          justify-items: center;
+          text-align: center;
+          align-items: center;
+          margin-top: 1rem;
+          align-content:center;
+          width: 100%;
+          height: 500px;
+          margin-bottom: 1rem;
+          padding: 0rem;
+          border: 0px;
+          position: relative;
+          left: 0;
+     }
+    
+      .img-tienda{
+        width: 100%;
+        height: 500px;      
+        left: 0;
+      }
+      
+      .front-page{
         display: flex;
         justify-content: center;
         justify-items: center;
@@ -360,66 +393,145 @@ height: 50px;
         margin: 0px;
         align-content:center;
         width: 100%;
-        height: 500px;
-        margin-bottom: 1rem;
+        height: 400px;
+        margin-bottom: 0rem;
+        margin-top: 0%;
         padding: 0rem;
         border: 0px;
-        position: 0;
+        position: relative;
         left: 0;
-
-  
-   }
-
-       .img-tienda{
-      width: 100%;
-      height: 500px;   
-      left: 0;
-
-
+        }
+      .title-front-page{
+        text-align: center;
+     font-size: 20px;   
+     margin-top: 0%; 
     }
-
-    .title-front-page{
+        
+    .text1{
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+    gap: 2;
+    margin-top: 0%; 
+    
+    }
+    
+    .line{
+      width: 411px;
+      height: 0px;
+      margin: 0;
+    position: relative;
+    
+    }
+    .text-2{
       text-align: center;
-      font-size: 20px;
-      }
-
-      .networks{
+      margin: 0;
+      max-width: 100%;
+      flex-direction: row;
+      justify-content: center;
+      position: relative;
+    
+    }
+    .text2{
+      position: relative;
+      margin: 0;
+      max-width: 100%;
+      text-align: center;
+      justify-content: center;
+      
+    }
+    .botonn{
+      flex-direction: row;
+      justify-content: center;
+      justify-items: center;
+      text-align: center;
+      align-content:center;
+      margin-bottom: 1rem;
+      position: relative; 
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+    }
+    
+    .boton{
+      font-size: 10px;
+    }
+    .cart{
+    width: 50px;
+    height: 50px;
+    }
+    .icons-2{
+      width: 100%;
+      bottom: 0px;  
+      display: flex;
+      position: relative;
+      justify-content: center;
+      margin-left: 0px;
+    }
+    
+    .networks{
+      position: absolute;
+        max-width: 100%;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        align-items: center;
         margin: 0;
         margin-left: 0px;
-        left: 0px;
-    
-        }
-        .icons-2{
-          width: 100%;
-          bottom: 0px;  
-          display: flex;
-          position: relative;
-          justify-content: center;
-          margin-top: 2rem;
-          margin-left: 0px;
-        }
-        .list-picture{
-          gap: 2rem;
-    
-        }
+        left: 5px;
+      }
+      .list-picture{
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+        gap: 2rem;
+      }
+      .picture1{
+      width: 50px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      }
+      .picture2{
+        width: 50px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+      }
+      .picture3{
+        width: 50px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+      }
+      .picture4{
+        width: 50px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .icons{
+        width: 30px;
+        height:30px;
+        margin-top: 5px;
+      
+      }
 
     }
 
   @media (max-width: 390px) {
     .hero{
-      max-width: 100%;   
-      margin-top: 10rem;
-      height: 100%;
-      display: flex;
+      background-color: white;
+      background-repeat: no-repeat;
       justify-content: center;
+      padding: 0rem;
+      display: grid;
+      flex-direction: column;
       justify-items: center;
       text-align: center;
-      flex-direction: column;
-      align-content:center;
-      padding: 0rem;
-      margin-top: 1rem;
-      margin: 0;
-      border: 0px;
+      width: 100%;
+      height: 100%;
     }
    
       .img{
@@ -428,59 +540,59 @@ height: 50px;
         justify-items: center;
         text-align: center;
         align-items: center;
-        margin: 0px;
+        margin-top: 1rem;
         align-content:center;
         width: 100%;
         height: 500px;
         margin-bottom: 1rem;
         padding: 0rem;
         border: 0px;
-        position: 0;
+        position: relative;
         left: 0;
-
-  
    }
   
     .img-tienda{
-      max-width: 100%;
-      height: 500px;   
+      width: 100%;
+      height: 500px;      
       left: 0;
-
     }
     
     .front-page{
       display: flex;
-      position: relative;
       justify-content: center;
       justify-items: center;
       text-align: center;
-      margin-top: 1rem;
+      align-items: center;
+      margin: 0px;
       align-content:center;
       width: 100%;
-      height: 350px;
-      position: relative;   
-      margin-left: 52%;
-      transform: translateX(-50%);
-     
-  
+      height: 400px;
+      margin-bottom: 0rem;
+      margin-top: 0%;
+      padding: 0rem;
+      border: 0px;
+      position: relative;
+      left: 0;
       }
     .title-front-page{
       text-align: center;
-      font-size: 20px;
-      }
+   font-size: 20px;   
+   margin-top: 0%; 
+  }
       
   .text1{
   text-align: center;
   margin: 0;
   justify-content: center;
   gap: 2;
-  margin-top: 1rem;
+  margin-top: 0%; 
+  
   }
   
   .line{
-    width: 300px;
+    width: 411px;
     height: 0px;
-    margin: auto;
+    margin: 0;
   position: relative;
   
   }
@@ -503,16 +615,13 @@ height: 50px;
   }
   .botonn{
     flex-direction: row;
-    position: relative;
     justify-content: center;
     justify-items: center;
     text-align: center;
     align-content:center;
     margin-bottom: 1rem;
     position: relative; 
-    margin-bottom: 3rem;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    margin-bottom: 1rem;
     margin-top: 1rem;
   }
   
@@ -525,26 +634,23 @@ height: 50px;
   }
   .icons-2{
     width: 100%;
-    margin-top: 50rem;
+    bottom: 0px;  
     display: flex;
     position: relative;
     justify-content: center;
-    margin-top: 2rem;
     margin-left: 0px;
-    display: flex;
   }
   
   .networks{
     position: absolute;
-    max-width: 100%;
-    justify-content: center;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    margin: 0;
-    margin-left: 0px;
-    left: 5px;
-
+      max-width: 100%;
+      justify-content: center;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      margin: 0;
+      margin-left: 0px;
+      left: 5px;
     }
     .list-picture{
       flex-direction: row;
@@ -552,7 +658,6 @@ height: 50px;
       justify-content: center;
       margin-top: 70px;
       gap: 2rem;
-
     }
     .picture1{
     width: 50px;
@@ -584,6 +689,4 @@ height: 50px;
       height:30px;
       margin-top: 5px;
     
-    }
-  
-    }
+    }}
