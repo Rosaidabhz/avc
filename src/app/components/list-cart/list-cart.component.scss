@@ -12,11 +12,19 @@
   }
   .valor{
     flex-direction: column;
-    text-align: center;
-    align-items: center;
     display: flex;
     justify-content: center;
     justify-items: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 1rem;
+    align-content:center;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0rem;
+    border: 0px;
+    position: relative;
+    left: 0;
   }
   
   .image-product{
