@@ -18,25 +18,27 @@
     margin-left: 2rem;
 
 }
+.title-productss{
+    color: #fafbfc;
+    font-family: "Poppins";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    }
 .title-maquinas{
-    margin: 0;
-   justify-content: center;
-    display: flex;
-    width: 100%;
+    background-color: #104481;
+    right: 0;
+    width: 65%;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    display: flex;
 }
-.title-productss{
-color: #104481;
-font-family: "Poppins";
-font-size: 30px;
-display: flex;
-text-align: center;
-font-style: normal;
-font-weight: 600;
-line-height: 26px;
-font-family: 'Poppins';
-}
+
 .terceario{
     justify-content: center; 
     display: flex; 
@@ -60,6 +62,9 @@ color: rgb(0, 0, 0);
 line-height: 26px;
 text-transform: uppercase;
 font-weight: 600;
+display: flex;
+
+right: 0;
 
 }
 
@@ -93,8 +98,8 @@ margin-top: 1rem;
     text-decoration: none;
     display: flex;
     font-family: 'Poppins';
+    margin: 0;
     margin-top: 20px;
-    margin-left: 5px;
 }
 .boton-catalago{
     flex-direction: row;
@@ -122,6 +127,7 @@ margin-top: 1rem;
     margin-top: 1rem;
 
 }
+
 
 .slider-img{
     left: 0;
@@ -252,6 +258,27 @@ font-family: "Poppins";
         align-items: center;
         background-repeat: no-repeat; 
         background-size: cover;
+    }
+    .title-productss{
+        color: #fafbfc;
+        font-family: "Poppins";
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+        right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        }
+    .title-maquinas{
+        background-color: #104481;
+        right: 0;
+        width: 100%;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        display: flex;
     }
     .title-products{
         display: flex;
