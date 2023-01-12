@@ -5,19 +5,24 @@
     padding: 2rem 0 2rem 0rem;
     display: flex;
  }
+
+ .fa-solid {
+color: #0f8e44;
+width: 30px;
+ }
  
  .about-us-left{
      justify-content: center;
      flex-direction: row;
      margin-right: 5rem;
-     margin-top: 1rem;
+     margin-top: 3rem;
  }
  
  .about-us-container{
      justify-content: center;
      flex-direction: row;
      margin-top: 1rem;
-
+     margin-bottom: 1rem;
  }
 
  .about-us-title{
@@ -30,6 +35,8 @@
      color: #104481;
      margin-bottom: 1REM;
      margin-top: 0rem;
+     justify-content: center;
+     text-align: center;
  }
  
  
@@ -39,7 +46,7 @@
     font-style: normal;
      font-weight: 400;
      font-size: 20px;
-     line-height: 23px;
+     line-height: 40px;
      color: #000000;
      text-transform: lowercase;
 
